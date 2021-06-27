@@ -1,0 +1,7 @@
+demo/.settings/org.eclipse.core.resources.prefs
+demo/.settings/org.eclipse.jdt.apt.core.prefs
+demo/.settings/org.eclipse.jdt.core.prefs
+demo/.settings/org.eclipse.m2e.core.prefs
+demo/.classpath
+demo/.project
+*.class
