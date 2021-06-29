@@ -1,5 +1,6 @@
 package io.amey;
 
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -9,12 +10,10 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
+    TaskDAO dao = new TaskDAO();
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        assertNotNull(dao.connectMongo());
     }
 }
