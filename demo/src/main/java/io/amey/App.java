@@ -10,6 +10,4 @@ public class App {
         Task newTask = new Task(1, "Buy milk", "No desc reqd", "Backlog");
         taskMongoDAO.insertTask(newTask);
     }
-
-    
 }
