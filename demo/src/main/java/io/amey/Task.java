@@ -4,14 +4,9 @@ public class Task {
     int id;
     String title;
     String desc;
-    public enum State{
-        BACKLOG,
-        WIP,
-        DONE
-    }
-    State state;
+    String state;
     
-    public Task(int id, String title, String desc, State initState) {
+    public Task(int id, String title, String desc, String initState) {
         this.id = id;
         this.title = title;
         this.desc = desc;
@@ -42,11 +37,11 @@ public class Task {
         this.desc = desc;
     }
 
-    public State getState() {
+    public String getState() {
         return state;
     }
 
-    public void setState(State state) {
+    public void setState(String state) {
         this.state = state;
     }
 
